@@ -1,4 +1,4 @@
-public class Flying {
+public class Flying extends Animals {
     private String typeOfMovement;
 
     public Flying(String typeOfMovement) {
@@ -27,5 +27,23 @@ public class Flying {
     }
 
     public void fly() {
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Ем" );
+
+    }
+
+    @Override
+    public void sleep() {
+
+        System.out.println("сплю" );
+    }
+
+    @Override
+    public void go() {
+
+        System.out.println("лечу" );
     }
 }

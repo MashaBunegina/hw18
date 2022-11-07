@@ -29,7 +29,7 @@ public class Main {
 
         Flightless peacock = new Flightless("go");
         Flightless penguin = new Flightless("go");
-        Flightless Dodo = new Flightless("go");
+        Flightless dodo = new Flightless("go");
         System.out.println(penguin.equals(peacock));
         penguin.animalClass();
         peacock.live();
@@ -44,5 +44,9 @@ public class Main {
         falcon.live();
         albatross.live();
          albatross.eat();
+         albatross.go();
+         albatross.sleep();
+         peacock.eat();
+         dodo.hunt();
     }
 }

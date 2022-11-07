@@ -21,7 +21,7 @@ public class Birds extends Animals {
 
     @Override
     public void eat() {
-        System.out.println("Тип еды животного" + typeOfFood);
+        System.out.println("ем");
 
     }
 
