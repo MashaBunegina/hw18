@@ -21,7 +21,7 @@ public class Main {
         bear.live();
         hyena.live();
 
-        Amphibians frog  = new Amphibians("water");
+        Amphibians frog = new Amphibians("water");
         Amphibians snake = new Amphibians("water");
         System.out.println(frog.equals(snake));
         frog.animalClass();
@@ -43,5 +43,6 @@ public class Main {
         seagull.live();
         falcon.live();
         albatross.live();
+         albatross.eat();
     }
 }

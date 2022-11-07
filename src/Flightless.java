@@ -1,16 +1,19 @@
-public class Flightless extends Birds{
+public class Flightless extends Birds {
     private String typeOfMovement;
 
     public Flightless(String typeOfMovement) {
+        super("insects", "trees");
         if (typeOfMovement == null || typeOfMovement.isEmpty()) {
             this.typeOfMovement = "go";
         } else {
             this.typeOfMovement = typeOfMovement;
         }
     }
+
     public void animalClass() {
         System.out.println("класс птицы");
     }
+
     public void live() {
         System.out.println("Тип передвижения животного: " + typeOfMovement);
     }
@@ -23,7 +26,7 @@ public class Flightless extends Birds{
         this.typeOfMovement = typeOfMovement;
     }
 
-    public void walk(){
+    public void walk() {
 
-   }
+    }
 }

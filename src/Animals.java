@@ -1,4 +1,4 @@
-public abstract  class Animals {
+public abstract class Animals {
     String name;
     int year;
 
@@ -32,11 +32,11 @@ public abstract  class Animals {
     }
 
 //public boolean equals(Object giraffe){
-  //  if (this == giraffe)
-   //     return true;
+    //  if (this == giraffe)
+    //     return true;
     //if (giraffe == null || getClass() != giraffe.getClass())
-      //  return false;
-   // Animals animals = (Animals) giraffe;
-  //  return name == animals.name && year == animals.year;
+    //  return false;
+    // Animals animals = (Animals) giraffe;
+    //  return name == animals.name && year == animals.year;
 }
 

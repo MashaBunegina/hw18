@@ -6,6 +6,7 @@ public class Mammals extends Animals {
     public void animalClass() {
         System.out.println("класс земноводные");
     }
+
     public String getLivingEnvironment() {
         return livingEnvironment;
     }
@@ -36,6 +37,7 @@ public class Mammals extends Animals {
     public void go() {
 
     }
+
     public void walking() {
     }
 }

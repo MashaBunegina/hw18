@@ -8,10 +8,12 @@ public class Flying {
             this.typeOfMovement = typeOfMovement;
         }
     }
-    public void animalClass(){
+
+    public void animalClass() {
         System.out.println("класс птицы");
 
     }
+
     public void live() {
         System.out.println("Тип передвижения животного: " + typeOfMovement);
     }

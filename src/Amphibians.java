@@ -8,12 +8,15 @@ public class Amphibians extends Animals {
             this.livingEnvironment = livingEnvironment;
         }
     }
-        public void animalClass() {
-            System.out.println("класс земноводные");
-        }
-            public void live() {
-                System.out.println("Земноводное обитает на " + livingEnvironment );
-            }
+
+    public void animalClass() {
+        System.out.println("класс земноводные");
+    }
+
+    public void live() {
+        System.out.println("Земноводное обитает на " + livingEnvironment);
+    }
+
     public String getLivingEnvironment() {
         return livingEnvironment;
     }
@@ -36,6 +39,7 @@ public class Amphibians extends Animals {
     public void go() {
 
     }
+
     public void hunt() {
     }
 }

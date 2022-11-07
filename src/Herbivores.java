@@ -1,28 +1,31 @@
 public class Herbivores extends Mammals {
-   private String typeOfFood;
- String livingEnvironment;
- int movementSpeed;
- public Herbivores(String typeOfFood, String livingEnvironment, int movementSpeed) {
-     if (typeOfFood == null || typeOfFood.isEmpty()) {
-         this.typeOfFood = "flowers";
-     } else {
-         this.typeOfFood = typeOfFood;
-     }
-     if (livingEnvironment == null || livingEnvironment.isEmpty()) {
-         this.livingEnvironment = "ground";
-     } else {
-         this.livingEnvironment = livingEnvironment;
-     }
-     if (movementSpeed <= 0) {
-         this.movementSpeed = 50;
-     } else {
-         this.movementSpeed = movementSpeed;
+    private final String typeOfFood;
+    private String livingEnvironment;
+    private int movementSpeed;
 
-     }
- }
-     public void animalClass () {
-         System.out.println("класс млекопитающие");
-     }
+    public Herbivores(String typeOfFood, String livingEnvironment, int movementSpeed) {
+        if (typeOfFood == null || typeOfFood.isEmpty()) {
+            this.typeOfFood = "flowers";
+        } else {
+            this.typeOfFood = typeOfFood;
+        }
+        if (livingEnvironment == null || livingEnvironment.isEmpty()) {
+            this.livingEnvironment = "ground";
+        } else {
+            this.livingEnvironment = livingEnvironment;
+        }
+        if (movementSpeed <= 0) {
+            this.movementSpeed = 50;
+        } else {
+            this.movementSpeed = movementSpeed;
+
+        }
+    }
+
+    public void animalClass() {
+        System.out.println("класс млекопитающие");
+    }
+
     public void live() {
         System.out.println("Животное питается " + typeOfFood + " обитает на " + livingEnvironment + "  при беге развивает скорость " + movementSpeed);
     }
@@ -31,9 +34,6 @@ public class Herbivores extends Mammals {
         return typeOfFood;
     }
 
-    public void setTypeOfFood(String typeOfFood) {
-        this.typeOfFood = typeOfFood;
-    }
 
     @Override
     public String getLivingEnvironment() {
@@ -69,8 +69,10 @@ public class Herbivores extends Mammals {
     public void go() {
 
     }
+
     public void walking() {
     }
+
     public void graze() {
     }
 }

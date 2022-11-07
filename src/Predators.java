@@ -1,5 +1,5 @@
 public class Predators extends Mammals {
-   private String typeOfFood;
+    private String typeOfFood;
     String livingEnvironment;
     int movementSpeed;
 
@@ -22,13 +22,15 @@ public class Predators extends Mammals {
 
         }
     }
-        public void live() {
-            System.out.println("Животное питается " + typeOfFood + " обитает на " + livingEnvironment + " при беге развивает скорость " + movementSpeed);
-        }
 
-        public void animalClass(){
-            System.out.println("класс млекопитающие");
+    public void live() {
+        System.out.println("Животное питается " + typeOfFood + " обитает на " + livingEnvironment + " при беге развивает скорость " + movementSpeed);
     }
+
+    public void animalClass() {
+        System.out.println("класс млекопитающие");
+    }
+
     public String getTypeOfFood() {
         return typeOfFood;
     }
